@@ -18,11 +18,7 @@
               </button>
           </div>
           <div class="modal-body" id="codeModalContent">
-              <?php if($code["code_cover"]) : ?>
-                  <img src="<?php echo $code['code_cover']; ?>" alt="<?php echo $code['code_title']; ?>">
-              <?php else: ?>
-                  <img src="img/default_code.png" alt="<?php echo $code['code_title']; ?>">
-              <?php endif; ?>
+              <img src="img/default_code.png" alt="<?php echo $code['code_title']; ?>">
               <br>
               <p class="font-weight-bold">Leírás:</p>
               <?php
