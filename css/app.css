@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=latin-ext');
+
+:root{
+    --link_color: #007bff;
+    --link_hover_color: #0056b3;
+}
+
+*{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+body{
+    background: #56595c;
+}
+
+#login_form, #reg_form, #letrehozas_form{
+    width: 400px;
+    margin: 50px auto 0 auto;
+}
+
+#login_form .btn_login,
+#reg_form .btn_reg,
+#letrehozas_form .btn-letrehoz{
+    background-color: #7c7f82;
+    border: 0;
+}
+
+#letrehozas_form .disable-horizontal{
+    resize: vertical;
+}
+
+.alert .alert-success{
+    width: 50%;
+    margin: 0 auto;
+}
+
+a.code_title_link{
+    color: var(--link_color) !important;
+    cursor: pointer;
+}
+
+a.code_title_link:hover{
+    color: var(--link_hover_color) !important;
+    text-decoration: underline !important;
+}
+
+.repo-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.repo-list .code{
+    margin-top: 35px;
+    padding: 0 15px;
+    width: 33%;
+}
+
+.repo-list img{
+    cursor: pointer;
+    max-width: 100%;
+}
